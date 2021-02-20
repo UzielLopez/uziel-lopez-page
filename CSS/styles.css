@@ -1,0 +1,68 @@
+/*
+Mi primer documento de CSS! :o
+Los comentarios son iguales que en C++
+*/
+
+/*Esto es una CSS rule*/
+
+body{
+
+    background: rgba(253, 210, 156, 0.2);
+
+
+}
+
+/*Esto un selector*/h3, h4{
+
+    color:deepskyblue;
+    font-size: 30px; /*Los pixeles son para tamaño absoluto*/
+    width: 100px;
+    height: 400px;
+}
+
+p{
+    color:rgb(245, 81, 81);
+}
+
+
+
+/*Como no puedes usar la misma id para dos elementos, si quieres tener
+un grupo de elementos que tenga un estilo en específico, usa class"*/
+
+.bonito{
+    color:hsla(303, 100%, 78%, 0.507);
+}
+
+.lowercase{
+
+    text-transform: lowercase;
+
+}
+
+div{
+
+    color:blueviolet;
+    background: burlywood;
+
+}
+
+/*Para partes que ya están dentro de un elemento (ej. texto de un párrafo) y quieres darle estilo "inline" (alineado al resto del elemento)*/
+span{
+
+    color:deepskyblue;
+
+}
+
+/*Estilo para una id en específico"*/
+#top{
+    color:mediumspringgreen;
+    background:midnightblue;
+}
+
+#nombreBanda{
+
+    background-color: rgb(240, 255, 230);
+    color: #ff0000
+
+
+}
